@@ -1,8 +1,9 @@
-import { FlatList, SectionList, Text, View } from "react-native";
-import { useRef, useState } from "react";
-
-import { Link } from "expo-router";
+import { Text, View } from "react-native";
 
 export default function App() {
-  return <View className="flex-1 pt-8"></View>;
+  return (
+    <View className="flex-1 pt-8">
+      <Text className="text-white">Hello</Text>
+    </View>
+  );
 }
